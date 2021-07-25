@@ -45,6 +45,6 @@ async function fetchAvailableDates() {
 
 setInterval(() => {
   fetchAvailableDates();
-}, 5000);
+}, 1000);
 
 // fetchAvailableDates();
